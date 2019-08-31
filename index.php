@@ -1,4 +1,6 @@
 <?php 
+
+	session_start();
 //include config
 require('config.php');
 
@@ -6,6 +8,7 @@ require('config.php');
 require('classes/Bootstrap.php');
 require('classes/Controller.php');
 require('classes/Model.php');
+require('classes/Messages.php');
 
 //Controllers
 require('controllers/home.php');

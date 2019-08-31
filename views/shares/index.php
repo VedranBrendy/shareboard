@@ -1,6 +1,6 @@
 <div class="container">
 	<?php if (isset($_SESSION['is_logged_in'])): ?>
-		<a href="<?php echo ROOT_URL; ?>shares/add" class="btn btn-success mt-3">Share Something</a>
+		<a href="<?php echo ROOT_URL; ?>shares/add" class="btn btn-success mt-2">Share Something</a>
 	<?php endif; ?>
 	
 	<?php foreach ($viewmodel as $item): ?>
