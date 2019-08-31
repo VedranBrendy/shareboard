@@ -37,8 +37,7 @@
 </nav>
 <div class="container">
   <div class="row justify-content-center">
-    <div class="mt-3">
-
+    <div class="my-5">
       <?php require($view); ?>
     </div>
   </div>
