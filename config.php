@@ -6,7 +6,7 @@ define("DB_PASS", "");
 define("DB_NAME", "shareboard");
 
 
-define("ROOT_PATH", "/shareboard/");
+define("ROOT_PATH", "/shareboard/");  
 define("ROOT_URL", "http://localhost/shareboard/");
 
 
